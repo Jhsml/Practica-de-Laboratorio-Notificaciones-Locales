@@ -1,3 +1,4 @@
+// Olvide poner mi nombre: Villa Gomez, Geysen Jhosmel - 6003125431
 import { Platform } from 'react-native';
 import * as Notifications from 'expo-notifications';
 
