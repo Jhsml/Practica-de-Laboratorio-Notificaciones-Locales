@@ -1,15 +1,5 @@
 # Aviso laboratorio · Notificaciones locales
 
-**Estudiante:** Villa Gomez, Geysen Jhosmel – 6003125431
-**Curso:** Programación de Aplicaciones Móviles – VI ciclo
-
-App en React Native + Expo (blank-typescript) que, al tocar un botón, programa una notificación local con título y la fecha y hora en que se programó.
-
-```bash
-npm install
-npx expo start
-```
-
 ## Respuestas de la comprobación final
 
 **1. ¿En qué archivo se comprueba el permiso?**
