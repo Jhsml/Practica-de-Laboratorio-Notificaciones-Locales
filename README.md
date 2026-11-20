@@ -38,6 +38,4 @@ Porque la genera el propio teléfono a pedido de la app (`scheduleNotificationAs
 
 **Solución aplicada (único cambio respecto a la guía):** en `ensureNotificationPermission()` se envolvió `setNotificationChannelAsync` en un `try/catch`. Si el canal no se puede crear, la app continúa y Android usa el canal por defecto de `expo-notifications`. Con esto la notificación aparece correctamente en la bandeja.
 
-**Notas adicionales:**
-- La red de la universidad no dejaba conectar el teléfono con la PC; se usó `npx expo start --tunnel ngrok` (por eso `@expo/ngrok` está como dependencia de desarrollo).
-- En PowerShell con scripts bloqueados, usar `npx.cmd` en lugar de `npx`.
+
